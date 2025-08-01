@@ -29,7 +29,7 @@ if uploaded_file is not None:
         st.line_chart(dataframe["ICT"])
     elif selected_option=="Science":
         st.write("### 📊 Science Performance Trend")
-        st.line_chart(dataframe["ICT"])
+        st.line_chart(dataframe["Science"])
     elif selected_option=="English":
         st.write("### 📊 English Performance Trend")
         st.line_chart(dataframe["English"])
